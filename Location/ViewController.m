@@ -17,11 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-<<<<<<< HEAD
-    UIView * view = [[UIView alloc]init];
-    
-=======
->>>>>>> d437eaa141e7e8057bb5ab11a91b2b3c3c3f53c6
+
+
     _locationManager = [[CLLocationManager alloc]init];
     
     if (![CLLocationManager locationServicesEnabled]) {
