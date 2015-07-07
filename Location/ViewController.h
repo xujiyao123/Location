@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import "XUAnnotation.h"
 @interface ViewController : UIViewController
-
+{
+    CLLocationManager *_locationManager;
+    CLGeocoder *_geocoder;
+    MKMapView *_mapView;
+}
 
 @end
 
